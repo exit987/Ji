@@ -11,4 +11,19 @@ git pull origin master (지정해논 레플스토리에서 지정해논 폴더�
 -git add . (local folder와 레플스토리 사이의 어떤 변경된 파일들이 있을때 그 모든 파일들을 트레킹 하는 커맨드.)
 -git commit -m "message" (변경사항같은걸 업로드시 커맨트를 다는 명령어.)
 
--git push origin +master (실제로 Git에 푸쉬 하는 커맨드.)
+-git push origin master (실제로 Git에 푸쉬 하는 커맨드.)
+
+git commit 을 하는 단계에서 
+아래와같은 에러메세지가 나오실때 해결 방법
+
+Please tell me who you are .Run  
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name" to set your account's default identity.
+
+해당 에러 메세지는 
+" 그래 이제 너가 설정해놓은 repository에 commit을 할껀데 
+그전에, 너는 누구야 ? " 를 묻는건데요,
+
+에러 메세지에서 말해주는대로 
+$ git config --global user.name "user name"
+$ git config --global user.email "user e-mail"
