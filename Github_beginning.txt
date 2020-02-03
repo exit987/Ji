@@ -1,0 +1,14 @@
+=> git init
+=> git remote add origin "Repository address"
+
+(push 전엔 pull 이 있다.)
+
+<Pull command>
+git pull origin master (지정해논 레플스토리에서 지정해논 폴더로 레플스토리의 모든 자료를 한번에 끌어오는 커맨드.)
+
+<Push command>
+-git status (현재 나의 local folder와 git과의 싱크 상태를 체크 해주는 커맨드.)
+-git add . (local folder와 레플스토리 사이의 어떤 변경된 파일들이 있을때 그 모든 파일들을 트레킹 하는 커맨드.)
+-git commit -m "message" (변경사항같은걸 업로드시 커맨트를 다는 명령어.)
+
+-git push origin +master (실제로 Git에 푸쉬 하는 커맨드.)
