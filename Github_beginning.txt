@@ -1,3 +1,5 @@
+Github 시작하기.
+
 => git init
 => git remote add origin "Repository address"
 
@@ -22,7 +24,7 @@ git config --global user.name "Your Name" to set your account's default identity
 
 해당 에러 메세지는 
 " 그래 이제 너가 설정해놓은 repository에 commit을 할껀데 
-그전에, 너는 누구야 ? " 를 묻는건데요,
+그전에, 너는 누구야 ? " 를 묻는것임.
 
 에러 메세지에서 말해주는대로 
 $ git config --global user.name "user name"
